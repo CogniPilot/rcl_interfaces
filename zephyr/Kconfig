@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: Apache-2.0
+menuconfig RCL_INTERFACES
+        bool "RCL_INTERFACES support"
+        depends on UNIQUE_IDENTIFIER_MSGS
+        help
+          This option enables RCL_INTERFACES
+
+if RCL_INTERFACES
+
+endif
+
